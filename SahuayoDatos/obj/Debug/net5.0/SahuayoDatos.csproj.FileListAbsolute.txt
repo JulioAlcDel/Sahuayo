@@ -1,0 +1,12 @@
+D:\Sahuayo Prueba\SahuayoPrueba\SahuayoDatos\bin\Debug\net5.0\SahuayoDatos.deps.json
+D:\Sahuayo Prueba\SahuayoPrueba\SahuayoDatos\bin\Debug\net5.0\SahuayoDatos.dll
+D:\Sahuayo Prueba\SahuayoPrueba\SahuayoDatos\bin\Debug\net5.0\ref\SahuayoDatos.dll
+D:\Sahuayo Prueba\SahuayoPrueba\SahuayoDatos\bin\Debug\net5.0\SahuayoDatos.pdb
+D:\Sahuayo Prueba\SahuayoPrueba\SahuayoDatos\obj\Debug\net5.0\SahuayoDatos.csproj.AssemblyReference.cache
+D:\Sahuayo Prueba\SahuayoPrueba\SahuayoDatos\obj\Debug\net5.0\SahuayoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sahuayo Prueba\SahuayoPrueba\SahuayoDatos\obj\Debug\net5.0\SahuayoDatos.AssemblyInfoInputs.cache
+D:\Sahuayo Prueba\SahuayoPrueba\SahuayoDatos\obj\Debug\net5.0\SahuayoDatos.AssemblyInfo.cs
+D:\Sahuayo Prueba\SahuayoPrueba\SahuayoDatos\obj\Debug\net5.0\SahuayoDatos.csproj.CoreCompileInputs.cache
+D:\Sahuayo Prueba\SahuayoPrueba\SahuayoDatos\obj\Debug\net5.0\SahuayoDatos.dll
+D:\Sahuayo Prueba\SahuayoPrueba\SahuayoDatos\obj\Debug\net5.0\ref\SahuayoDatos.dll
+D:\Sahuayo Prueba\SahuayoPrueba\SahuayoDatos\obj\Debug\net5.0\SahuayoDatos.pdb

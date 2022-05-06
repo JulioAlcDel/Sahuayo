@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahuayoPrueba", "SahuayoPrueba\SahuayoPrueba.csproj", "{68F081F7-4E07-4159-9044-E1F4D6E83339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahuayoDatos", "SahuayoDatos\SahuayoDatos.csproj", "{17284BB4-7C90-4CFA-AC9B-663A34C787CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68F081F7-4E07-4159-9044-E1F4D6E83339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F081F7-4E07-4159-9044-E1F4D6E83339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F081F7-4E07-4159-9044-E1F4D6E83339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F081F7-4E07-4159-9044-E1F4D6E83339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17284BB4-7C90-4CFA-AC9B-663A34C787CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17284BB4-7C90-4CFA-AC9B-663A34C787CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17284BB4-7C90-4CFA-AC9B-663A34C787CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17284BB4-7C90-4CFA-AC9B-663A34C787CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {314C23FB-A488-420D-9298-8FDE2082BA82}
+	EndGlobalSection
+EndGlobal

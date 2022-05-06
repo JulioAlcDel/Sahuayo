@@ -1,0 +1,60 @@
+﻿@model PersonaViewModel
+
+@{ Layout = null; }
+
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="AddOrEdit" asp-route-id="@Model.IdPersona" onsubmit="return jQueryAjaxPost(this);">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdPersona" />
+            <input type="hidden" asp-for="TieneEnfermedad" id="checkValue"/>
+            <div class="mb-3">
+                <label asp-for="Nombre" class="form-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ApellidoPaterno" class="form-label"></label>
+                <input asp-for="ApellidoPaterno" class="form-control" />
+                <span asp-validation-for="ApellidoPaterno" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ApellidoMaterno" class="form-label"></label>
+                <input asp-for="ApellidoMaterno" class="form-control" />
+                <span asp-validation-for="ApellidoMaterno" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Descripcion" class="form-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Sueldo" class="form-label"></label>
+                <input asp-for="Sueldo" class="form-control" pattern="^\d*(\.\d{0,2})?$" />
+                <span asp-validation-for="Sueldo" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="TieneEnfermedad" class="form-label"></label>
+                <input asp-for="TieneEnfermedad" value="@Model.TieneEnfermedad" class="form-control" />
+                <span asp-validation-for="TieneEnfermedad" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-6 offset-md-3">
+                    <input type="submit" value="Guardar" class="btn btn-primary btn-block" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    $(function () {
+        $('#TieneEnfermedad').bootstrapToggle({
+            on: 'SI',
+            off: 'NO'
+        });
+
+    })
+</script>
